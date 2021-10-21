@@ -1,0 +1,143 @@
+
+.body{
+    width:100%;
+    height:100%;
+    background:black;
+    position: absolute;
+}
+.white_body{
+    width:100%;
+    height:100%;
+    background: #fff;
+    position: absolute;
+}
+
+.cart_holder{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register_card {
+    width: 400px;
+}
+
+.button{
+    border: none;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
+    text-transform: uppercase;
+    background: black;
+    color: white;
+    box-shadow: inset 12px 10px 9px 2px rgb(255 255 255 / 14%);
+    opacity: 100%;
+    border-radius: 4px;
+}
+
+.button.disabled{
+    opacity: 40%;
+}
+
+.button:hover{
+    opacity: 80%;
+    box-shadow: none;
+    transition: opacity 0.1s ease-in 0.1s;
+}
+
+.card_title{
+    color:black;
+}
+
+.table{
+    padding: 20px;
+}
+
+.table td{
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    border-radius: 2px;
+    padding: 10px 20px;
+    border-left: 1px solid #30252536;
+}
+
+.table th{
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    border-radius: 2px;
+    padding: 10px 20px;
+    border-left: 1px solid #fff;
+    background: black;
+    color: #fff;
+}
+
+.edit_page_container{
+    /*position: relative;*/
+}
+
+
+.edit_page_modal{
+    position: absolute;
+    filter: blur(13px);
+    /*background: #ff0000;*/
+    height: 100%;
+    width: 100%;
+    margin: -20px;
+}
+
+.edit_page_form{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    width: 400px;
+    border-radius: 10px;
+    left: 35%;
+    top: 15%;
+    padding: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.image_holder{
+    border: 1px solid;
+    display: inherit;
+    padding: 5px 5px 0 5px;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.my_td{
+    width: 100px;
+}
+
+input[type=text]:not(.browser-default){
+    font-weight: 600;
+}
+
+.ahtung_text{
+    color: red;
+    font-size: 10px;
+    line-height: 13px;
+}
+
+@media (max-width: 700px) {
+    nav .brand-logo {
+        font-size:18px !important;
+        left: 10px!important;
+        transform: none!important;
+    }
+    nav ul a{
+        transition: none !important;
+        font-size: 1rem;
+        color: #fff;
+        padding: 0 15px;
+    }
+}

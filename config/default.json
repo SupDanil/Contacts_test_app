@@ -1,0 +1,6 @@
+{
+  "port": 4000,
+  "mongoUri": "mongodb+srv://Dakon:1342201@cluster0.l8xct.mongodb.net/app?retryWrites=true&w=majority",
+  "jwtSecret": "dakon app",
+  "baseUrl": "http://localhost:3000"
+}
