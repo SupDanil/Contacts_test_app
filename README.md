@@ -1,2 +1,6 @@
-# contacts_test_app
- React and Node.js aplication
+Что бы запустить приложения сначала введите команду:
+npm install
+После установки всех зависимостей введите команду:
+npm run app
+ 
+ 
