@@ -2,4 +2,4 @@
 npm install
 После установки всех зависимостей введите команду:
 npm run app
-mern app(React, Node.js)
+
