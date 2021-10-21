@@ -130,7 +130,7 @@ export const ContactsPage = () => {
                         <img style={{height: "30px"}} src="/system-images/cart.png" alt=""/>
                     </div>
                     <div className="image_holder" onClick={()=>editElement(people, index)}>
-                        <img style={{height: "30px"}} src="/system-images/editing.png" alt=""/>
+                        <img style={{height: "30px"}} src="/system-images/edite.png" alt=""/>
                     </div>
                 </td>
             </tr>
