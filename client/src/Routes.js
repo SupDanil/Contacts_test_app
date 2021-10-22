@@ -3,6 +3,7 @@ import {Switch, Route, Redirect} from 'react-router-dom'
 import {ContactsPage} from "./Pages/ContactsPage";
 import {AuthPage} from "./Pages/AuthPage";
 
+
 export const useRoutes = isAuthenticated =>{
     if(isAuthenticated){
         return(
